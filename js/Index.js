@@ -64,13 +64,19 @@ const songs = [
         title: "Smooth Criminal",
         artist: "Alien Ant Farm",
         path: "music/Smooth Criminal(MP3_160K).mp3",
-        cover: "music/cover4.jpg"
+        cover: "music/imgSongs/criminal.jpg"
     },
     {
         title: "Soda Stereo",
         artist: "Entre Caíbales",
         path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
         cover: "music/imgSongs/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
+    },
+    {
+        title: "La Vuelta Al Mundo",
+        artist: "Calle 13",
+        path: "music/La Vuelta Al Mundo(MP3_160K).mp3",
+        cover: "music/imgSongs/Lavuelta.jpg"
     }
 ];
 
