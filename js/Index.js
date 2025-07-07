@@ -34,31 +34,31 @@ const songs = [
         title: "Perranderos",
         artist: "Al2 El Aldeano",
         path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "Clint Eastwood",
         artist: "Gorillaz",
         path: "music/Gorillaz - Clint Eastwood (Official Video)(MP3_160K).mp3",
-        cover: "music/cover5.jpg"
+        cover: "music/imgSongs/Gorillaz - Clint Eastwood (Official Video)(MP3_160K).jpg"
     },
     {
         title: "Délà vu",
         artist: "Gorillaz",
         path: "music/Gorillaz - Déjà Vu (ft. Alicaì Harley) Live from NW10 (Official Visualiser)(MP3_160K).mp3",
-        cover: "music/cover1.jpg"
+        cover: "music/imgSongs/Gorillaz - Déjà Vu (ft. Alicaì Harley) Live from NW10 (Official Visualiser)(MP3_160K).jpg"
     },
     {
         title: "Désolé",
         artist: "Gorillaz",
         path: "music/Gorillaz - Désolé ft. Fatoumata Diawara (Episode Two)(MP3_160K).mp3",
-        cover: "music/cover2.jpg"
+        cover: "music/imgSongs/Gorillaz - Désolé ft. Fatoumata Diawara (Episode Two)(MP3_160K).jpg"
     },
     {
         title: "Smokin Love",
         artist: "Taiwan",
         path: "music/Smokin_ Love(MP3_160K).mp3",
-        cover: "music/cover3.jpg"
+        cover: "music/imgSongs/Smokin_ Love(MP3_160K).jpg"
     },
     {
         title: "Smooth Criminal",
@@ -70,7 +70,7 @@ const songs = [
         title: "Soda Stereo",
         artist: "Entre Caíbales",
         path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
-        cover: "music/cover5.jpg"
+        cover: "music/imgSongs/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
     }
 ];
 
