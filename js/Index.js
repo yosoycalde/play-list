@@ -119,7 +119,32 @@ const songs = [
         artist: "Terror Reid",
         path: "music/TERROR REID - I.D.F.A (Official Lyric Video)(MP3_160K).mp3",
         cover: "music/imgSongs/idfa.jpg"
-    }
+    },
+    {
+        title: "First Blood",
+        artist: "Terror Reid",
+        path: "music/TERROR REID - First Blood (Official Lyric Video)(MP3_160K).mp3",
+        cover: "music/imgSongs/fisrt.jpg"
+    },
+    {
+        title: "Bouce Back",
+        artist: "Terror Reid",
+        path: "music/Terror Reid - Bounce Back(MP3_160K).mp3",
+        cover: "music/imgSongs/Bourse.jpg"
+    },
+    {
+        title: "Babe FT LU",
+        artist: "Terror Reid",
+        path: "music/TERROR REID - Babe Ruthless Ft LU (Official Lyric Video)(MP3_160K).mp3",
+        cover: "music/imgSongs/BABE.jpg"
+    },
+    {
+        title: "Temor a Dios",
+        artist: "Mañas Rufino",
+        path: "music/Temor A Dios - Mañas Ru-Fino (Prod. Ru-Fino _ DeeJohend) Vértigo 2024(MP3_160K).mp3",
+        cover: "music/imgSongs/temoradios.jpg"
+    },
+
 ];
 
 let currentSongIndex = 0;
