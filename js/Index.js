@@ -95,6 +95,18 @@ const songs = [
         artist: "Linkin Park ",
         path: "music/Valentine_s Day - Linkin Park (Minutes To Midnight)(MP3_160K).mp3",
         cover: "music/imgSongs/valents.jpg"
+    },
+    {
+        title: "1.9.9.9",
+        artist: "Los Orishas",
+        path: "music/Orishas -  1.9.9.9 _ Album A Lo Cubano(MP3_160K).mp3",
+        cover: "music/imgSongs/orishas.jpg"
+    },
+    {
+        title: "When It`s All Gone",
+        artist: "Terror Reid",
+        path: "music/Terror Reid - When It_s All Gone_(MP3_160K).mp3",
+        cover: "music/imgSongs/terror-blood.jpg"
     }
 ];
 
