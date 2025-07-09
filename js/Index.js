@@ -144,6 +144,32 @@ const songs = [
         path: "music/Temor A Dios - Mañas Ru-Fino (Prod. Ru-Fino _ DeeJohend) Vértigo 2024(MP3_160K).mp3",
         cover: "music/imgSongs/temoradios.jpg"
     },
+    {
+        title: "Ya Verás",
+        artist: "Realidad Mental , Penyair",
+        path: "music/Realidad Mental - Ya Verás ft. _PenyairOficial Prod _EddyMugre  _AlkaProduce (Visualizer)(MP3_160K).mp3",
+        cover: "music/imgSongs/yaveras.jpg"
+    },
+    {
+        title: "Ganado el Round",
+        artist: "Realidad Mental , Penyair",
+        path: "music/Realidad Mental - Ganando el round ft. _PenyairOficial x _LionFiah (video oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/round.jpg"
+    },
+    {
+        title: "Points Of Authority",
+        artist: "Linkin Park",
+        path: "music/Points Of Authority [Official HD Music Video] - Linkin Park(MP3_160K).mp3",
+        cover: "music/imgSongs/poark.jpg"
+    },
+    {
+        title: "Pesos, Dolares y Euros ",
+        artist: "Pel roja , Mañas",
+        path: "music/PIEL ROJA _ MAÑAS  RU - FINO - PESOS_ DÓLARES Y EUROS ( PROD KAS RULES)(MP3_160K).mp3",
+        cover: "music/imgSongs/pesos.jpg"
+    },
+
+
 
 ];
 
