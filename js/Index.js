@@ -91,10 +91,10 @@ const songs = [
         cover: "music/imgSongs/base.jpg"
     },
     {
-        title: "Base De Rap Cumbia Rap Hip Hop Instrumental",
-        artist: "Uso Libre",
-        path: "music/_CUMBIA MALANDRA_ Base De Rap Cumbia Rap Hip Hop Instrumental _ Uso Libre _ Cumbia Rap Beat 2024(M4A_128K).m4a",
-        cover: "music/imgSongs/base.jpg"
+        title: "Valentines Day",
+        artist: "Linkin Park ",
+        path: "music/Valentine_s Day - Linkin Park (Minutes To Midnight)(MP3_160K).mp3",
+        cover: "music/imgSongs/valents.jpg"
     }
 ];
 
