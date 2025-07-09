@@ -168,6 +168,43 @@ const songs = [
         path: "music/PIEL ROJA _ MAÑAS  RU - FINO - PESOS_ DÓLARES Y EUROS ( PROD KAS RULES)(MP3_160K).mp3",
         cover: "music/imgSongs/pesos.jpg"
     },
+    {
+        title: "Mientras Duermen ",
+        artist: "Negro Gonzales",
+        path: "music/_Mientras Duermen_ - Negro Gonzalez_ Warrior_ Samurai_ Norick_ B.man (VIDEO OFICIAL)(MP3_160K).mp3",
+        cover: "music/imgSongs/mientras duermen.jpg"
+    },
+    {
+        title: "Sádico",
+        artist: "Rawayana",
+        path: "music/_Sádico (Sunsplash _ Ferraz Remix)(MP3_160K).mp3",
+        cover: "music/imgSongs/sadico.jpg"
+    },
+    {
+        title: "¿Quien No?",
+        artist: "AZ",
+        path: "music/¿Quién No_(MP3_160K).mp3",
+        cover: "music/imgSongs/Quien no.jpg"
+    },
+    {
+        title: "¿Quienes Sois?",
+        artist: "Ska-P",
+        path: "music/¿Quienes Sois_(MP3_160K).mp3",
+        cover: "music/imgSongs/quienesois.jpg"
+    },
+    {
+        title: "Quieres ser mi amante",
+        artist: "Camilo Sesto",
+        path: "music/¿Quieres Ser Mi Amante_(MP3_160K).mp3",
+        cover: "music/imgSongs/quieres ser mi amante.jpg"
+    },
+    {
+        title: "I Can`t Get No",
+        artist: "The rolling stones*",
+        path: "music/[I Can_t Get No] Satisfaction (Mono Version)(MP3_160K) (1).mp3",
+        cover: "music/imgSongs/rolling.jpg"
+    },
+
 
 
 
