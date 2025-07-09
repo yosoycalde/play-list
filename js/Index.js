@@ -77,6 +77,24 @@ const songs = [
         artist: "Calle 13",
         path: "music/La Vuelta Al Mundo(MP3_160K).mp3",
         cover: "music/imgSongs/Lavuelta.jpg"
+    },
+    {
+        title: "Sukuna VS Gojo Version salsa",
+        artist: "liryc Español",
+        path: "music/_ La Salsa de Gojo vs Sukuna_ Jujutsu Kaisen (IA) liryc Español(MP3_160K).mp3",
+        cover: "music/imgSongs/salsa-sukuna-gojo.jpg"
+    },
+    {
+        title: "Base De Rap Cumbia Rap Hip Hop Instrumental",
+        artist: "Uso Libre",
+        path: "music/_CUMBIA MALANDRA_ Base De Rap Cumbia Rap Hip Hop Instrumental _ Uso Libre _ Cumbia Rap Beat 2024(M4A_128K).m4a",
+        cover: "music/imgSongs/base.jpg"
+    },
+    {
+        title: "Base De Rap Cumbia Rap Hip Hop Instrumental",
+        artist: "Uso Libre",
+        path: "music/_CUMBIA MALANDRA_ Base De Rap Cumbia Rap Hip Hop Instrumental _ Uso Libre _ Cumbia Rap Beat 2024(M4A_128K).m4a",
+        cover: "music/imgSongs/base.jpg"
     }
 ];
 
