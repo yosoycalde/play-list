@@ -204,7 +204,54 @@ const songs = [
         path: "music/[I Can_t Get No] Satisfaction (Mono Version)(MP3_160K) (1).mp3",
         cover: "music/imgSongs/rolling.jpg"
     },
-
+    {
+        title: "Pintura",
+        artist: "Al2 El Aldeano",
+        path: "music/1- Pintura - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Knee deep ",
+        artist: "Funkadelic",
+        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
+        cover: "music/imgSongs/deep.jpg"
+    },
+    {
+        title: "Sangre",
+        artist: "Al2 El Aldeano",
+        path: "music/2- Sangre - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Sorner-Jet Lag",
+        artist: "Funkadelic",
+        path: "music/2. Sorner_Jet Lag - Doble Porción _ The Colombians. Ft. Deejohend(MP3_160K).mp3",
+        cover: "music/imgSongs/jet.jpg"
+    },
+    {
+        title: "Mal Ejemplo",
+        artist: "Funkadelic",
+        path: "music/02.- Mal Ejemplo - Santa Grifa (El Mal Ejemplo VOL.3)(MP3_160K).mp3",
+        cover: "music/imgSongs/santagrifa.jpg"
+    },
+    {
+        title: "",
+        artist: "Funkadelic",
+        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
+        cover: "music/imgSongs/deep.jpg"
+    },
+    {
+        title: "",
+        artist: "Funkadelic",
+        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
+        cover: "music/imgSongs/deep.jpg"
+    },
+    {
+        title: "",
+        artist: "Funkadelic",
+        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
+        cover: "music/imgSongs/deep.jpg"
+    },
 
 
 
