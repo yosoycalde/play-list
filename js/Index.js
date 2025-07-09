@@ -107,6 +107,18 @@ const songs = [
         artist: "Terror Reid",
         path: "music/Terror Reid - When It_s All Gone_(MP3_160K).mp3",
         cover: "music/imgSongs/terror-blood.jpg"
+    },
+    {
+        title: "SAY NO MO",
+        artist: "Terror Reid",
+        path: "music/TERROR REID - SAY NO MO_(MP3_160K).mp3",
+        cover: "music/imgSongs/say-no-mo.jpg"
+    },
+    {
+        title: "I.D.F.A",
+        artist: "Terror Reid",
+        path: "music/TERROR REID - I.D.F.A (Official Lyric Video)(MP3_160K).mp3",
+        cover: "music/imgSongs/idfa.jpg"
     }
 ];
 
