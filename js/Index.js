@@ -85,10 +85,10 @@ const songs = [
         cover: "music/imgSongs/salsa-sukuna-gojo.jpg"
     },
     {
-        title: "Base De Rap Cumbia Rap Hip Hop Instrumental",
-        artist: "Uso Libre",
-        path: "music/_CUMBIA MALANDRA_ Base De Rap Cumbia Rap Hip Hop Instrumental _ Uso Libre _ Cumbia Rap Beat 2024(M4A_128K).m4a",
-        cover: "music/imgSongs/base.jpg"
+        title: "Al Caer La Noche",
+        artist: "?",
+        path: "music/Al caer la noche (Twilight Time)(MP3_160K).mp3",
+        cover: "music/imgSongs/laluna.jpg"
     },
     {
         title: "Valentines Day",
@@ -235,23 +235,84 @@ const songs = [
         cover: "music/imgSongs/santagrifa.jpg"
     },
     {
-        title: "",
-        artist: "Funkadelic",
-        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
-        cover: "music/imgSongs/deep.jpg"
+        title: "No Me Inmteresa ",
+        artist: "Al2 El Aldeano",
+        path: "music/10- No Me Interesa - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Apaga El Cel",
+        artist: "Doble Porcion",
+        path: "music/8. Apaga el Cel - Doble Porción _ The Colombians Ft. ZetaZeta _ Deejohend(MP3_160K).mp3",
+        cover: "music/imgSongs/jet.jpg"
+    },
+    {
+        title: "Adicto a Ti ",
+        artist: "?",
+        path: "music/Adicto a Ti(MP3_160K).mp3",
+        cover: "music/imgSongs/adicto.jpg"
+    },
+    {
+        title: "Símbolo",
+        artist: "Al2 El Aldeano",
+        path: "music/11- Símbolo - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "All Eyez On Me",
+        artist: "2Pac",
+        path: "music/2Pac - All Eyez On Me(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
+    },
+    {
+        title: "Ambitionz Az a Ridah",
+        artist: "2Pac",
+        path: "music/2Pac - Ambitionz Az a Ridah(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
+    },
+    {
+        title: "Do For Love",
+        artist: "2Pac",
+        path: "music/2Pac - Do For Love (sub. español)(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
+    },
+    {
+        title: "Hit Em Up",
+        artist: "2 Pac",
+        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
     },
     {
         title: "",
-        artist: "Funkadelic",
-        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
-        cover: "music/imgSongs/deep.jpg"
+        artist: "2 Pac",
+        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
     },
     {
         title: "",
-        artist: "Funkadelic",
-        path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
-        cover: "music/imgSongs/deep.jpg"
+        artist: "2 Pac",
+        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
     },
+    {
+        title: "",
+        artist: "2 Pac",
+        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
+    },
+    {
+        title: "",
+        artist: "2 Pac",
+        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
+    },
+    {
+        title: "",
+        artist: "2 Pac",
+        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
+        cover: "music/imgSongs/2pac.jpg"
+    },
+
 
 
 
