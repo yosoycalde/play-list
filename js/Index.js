@@ -312,6 +312,12 @@ const songs = [
         path: "music/5 Letras(MP3_160K).mp3",
         cover: "music/imgSongs/5letras.jpg"
     },
+    {
+        title: "5-4",
+        artist: "gorillaz",
+        path: "music/5_4(MP3_160K).mp3",
+        cover: "music/imgSongs/5-4.jpg"
+    },
 
 
 
