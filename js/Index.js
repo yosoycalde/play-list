@@ -386,9 +386,60 @@ const songs = [
     },
 
 
-
-
-
+    {
+        title: "Sueña En Grande",
+        artist: "Big Stan",
+        path: "music/14 sueño despierto - big stan - SUEÑA EN GRANDE(MP3_160K).mp3",
+        cover: "music/imgSongs/lineas.jpg"
+    },
+    {
+        title: "14 Years",
+        artist: "Guns And Roses",
+        path: "music/14 Years(MP3_160K).mp3",
+        cover: "music/imgSongs/14.jpg"
+    },
+    {
+        title: "Lluvia De Adokines",
+        artist: "Al2 ",
+        path: "music/14- Lluvia De Adokines - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "19-2000",
+        artist: "Gorillaz",
+        path: "music/19-2000(MP3_160K).mp3",
+        cover: "music/imgSongs/5-4.jpg"
+    },
+    {
+        title: "",
+        artist: "Marvin Gaye",
+        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
+    },
+    {
+        title: "",
+        artist: "Marvin Gaye",
+        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
+    },
+    {
+        title: "",
+        artist: "Marvin Gaye",
+        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
+    },
+    {
+        title: "",
+        artist: "Marvin Gaye",
+        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
+    },
+    {
+        title: "",
+        artist: "Marvin Gaye",
+        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
+    },
 ];
 
 let currentSongIndex = 0;
