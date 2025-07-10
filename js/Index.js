@@ -318,6 +318,19 @@ const songs = [
         path: "music/5_4(MP3_160K).mp3",
         cover: "music/imgSongs/5-4.jpg"
     },
+    {
+        title: "A Mover El Cuello ",
+        artist: "Al2 El Aldeano",
+        path: "music/9- A Mover El Cuello - Al2 El Aldeano _ Dj Figu feat Jesuly (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "5-4",
+        artist: "gorillaz",
+        path: "music/5_4(MP3_160K).mp3",
+        cover: "music/imgSongs/5-4.jpg"
+    },
+    
 
 
 
