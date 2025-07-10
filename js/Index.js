@@ -283,34 +283,34 @@ const songs = [
         cover: "music/imgSongs/2pac.jpg"
     },
     {
-        title: "",
-        artist: "2 Pac",
-        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
-        cover: "music/imgSongs/2pac.jpg"
+        title: "Yoh",
+        artist: "Al2 El Aldeano",
+        path: "music/3- Yoh - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
-        title: "",
-        artist: "2 Pac",
-        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
-        cover: "music/imgSongs/2pac.jpg"
+        title: "Enyerbao",
+        artist: "Doble porción",
+        path: "music/3. Enyerbao - Doble Porción _ The Colombians(MP3_160K).mp3",
+        cover: "music/imgSongs/jet.jpg"
     },
     {
-        title: "",
-        artist: "2 Pac",
-        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
-        cover: "music/imgSongs/2pac.jpg"
+        title: "Palabras de Honor",
+        artist: "Métricas frias",
+        path: "music/3. Métricas Frías _ DeeJohend - Palabra de Honor Ft. SpreadLof(MP3_160K).mp3",
+        cover: "music/imgSongs/palabrasdehonor.jpg"
     },
     {
-        title: "",
-        artist: "2 Pac",
-        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
-        cover: "music/imgSongs/2pac.jpg"
+        title: "Que Se Boten",
+        artist: "Al2 El Aldeano",
+        path: "music/4- Que Se Boten - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
-        title: "",
-        artist: "2 Pac",
-        path: "music/2Pac - Hit _Em Up (Dirty) (Music Video) HD(MP3_160K).mp3",
-        cover: "music/imgSongs/2pac.jpg"
+        title: "El 5 Letras",
+        artist: "Alexis",
+        path: "music/5 Letras(MP3_160K).mp3",
+        cover: "music/imgSongs/5letras.jpg"
     },
 
 
