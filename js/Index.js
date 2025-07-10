@@ -325,12 +325,66 @@ const songs = [
         cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
-        title: "5-4",
-        artist: "gorillaz",
-        path: "music/5_4(MP3_160K).mp3",
-        cover: "music/imgSongs/5-4.jpg"
+        title: "Fooled Around And Fell In Love",
+        artist: "Elvin Bishop",
+        path: "music/5. Elvin Bishop - Fooled Around and Fell in Love(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
     },
-    
+    {
+        title: "Mas Alla",
+        artist: "Al2 El Aldeano",
+        path: "music/6- Mas Alla - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "7 Years",
+        artist: "Lukas Graham",
+        path: "music/7 Years(MP3_160K).mp3",
+        cover: "music/imgSongs/lukas.jpg"
+    },
+    {
+        title: "Letron James",
+        artist: "Al2 El Aldeano",
+        path: "music/7- Letron James - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Colera",
+        artist: "La ciudad Maldita",
+        path: "music/8 . Colera - La Ciudad Maldita [4.MA.PEEPS](MP3_160K).mp3",
+        cover: "music/imgSongs/colera.jpg"
+    },
+    {
+        title: "Encontrarte Entre Mis Lineas",
+        artist: "Big Stan",
+        path: "music/8 encontrarte entre mis lineas - big stan.- SUEÑA EN GRANDE(MP3_160K).mp3",
+        cover: "music/imgSongs/lineas.jpg"
+    },
+    {
+        title: "La Vida Con Calma ",
+        artist: "silvito libre cuba  SUEÑA EN GRANDE",
+        path: "music/9 la vida con calma feat silvito libre cuba  SUEÑA EN GRANDE(MP3_160K).mp3",
+        cover: "music/imgSongs/lineas.jpg"
+    },
+    {
+        title: "10 De 10",
+        artist: "Univers",
+        path: "music/10_10(MP3_160K).mp3",
+        cover: "music/imgSongs/1010.jpg"
+    },
+    {
+        title: "Poseido",
+        artist: "Al2 El Aldeano",
+        path: "music/12- Poseido - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Tammi Terrel",
+        artist: "Marvin Gaye",
+        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
+        cover: "music/imgSongs/feel-love.jpg"
+    },
+
 
 
 
