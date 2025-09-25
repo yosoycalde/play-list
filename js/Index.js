@@ -248,7 +248,7 @@ const songs = [
     },
     {
         title: "Adicto a Ti ",
-        artist: "?",
+        artist: "Chystemc",
         path: "music/Adicto a Ti(MP3_160K).mp3",
         cover: "music/imgSongs/adicto.jpg"
     },
@@ -411,34 +411,226 @@ const songs = [
         cover: "music/imgSongs/5-4.jpg"
     },
     {
-        title: "",
-        artist: "Marvin Gaye",
-        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
-        cover: "music/imgSongs/feel-love.jpg"
+        title: "À tout le monde",
+        artist: "Megadeth",
+        path: "music/À tout le monde (Set Me Free)(MP3_160K).mp3",
+        cover: "music/imgSongs/monde.jpg"
+    },
+    {
+        title: "crazy ",
+        artist: "aerosmith",
+        path: "music/aerosmith - crazy _ español(MP3_160K).mp3",
+        cover: "music/imgSongs/crazy.jpg"
+    },
+    {
+        title: "Ámame como soy",
+        artist: "Orishas",
+        path: "music/Ámame Como Soy Yo(MP3_160K).mp3",
+        cover: "music/imgSongs/amame.jpg"
+    },
+    {
+        title: "La flaca",
+        artist: "jarabe de palo",
+        path: "music/La flaca(MP3_160K) (1).mp3",
+        cover: "music/imgSongs/laflaca.jpg"
+    },
+    {
+        title: "La flaca",
+        artist: "Univers",
+        path: "music/La flaca(MP3_160K).mp3",
+        cover: "music/imgSongs/Laflacauni.jpg"
+    },
+    {
+        title: "21 Questions",
+        artist: "50 cent",
+        path: "music/21 Questions(MP3_160K)(2).mp3",
+        cover: "music/imgSongs/50cens.jpg",
+    },
+    {
+        title: "505",
+        artist: "Arctic Monkeys",
+        path: "music/505(MP3_160K).mp3",
+        cover: "music/imgSongs/505.jpg",
+    },
+    {
+        title: "1999",
+        artist: "AZ",
+        path: "music/1999(MP3_160K).mp3",
+        cover: "music/imgSongs/1999.jpg",
+    },
+    {
+        title: "La revancha de los timidos",
+        artist: "AZ",
+        path: "music/La Revancha de los Timidos(MP3_160K).mp3",
+        cover: "music/imgSongs/1999.jpg",
+    },
+    {
+        title: "La Segunda Vez",
+        artist: "Penyair",
+        path: "music/La Segunda Vez(MP3_160K).mp3",
+        cover: "music/imgSongs/segunda.jpg",
+    },
+    {
+        title: "La Sentada",
+        artist: "La muchacha",
+        path: "music/La Sentada(MP3_160K).mp3",
+        cover: "music/imgSongs/sentada.jpg",
+    },
+    {
+        title: "La Tipica",
+        artist: "AZ",
+        path: "music/La Típica(MP3_160K).mp3",
+        cover: "music/imgSongs/tipica.jpg",
     },
     {
         title: "",
-        artist: "Marvin Gaye",
-        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
-        cover: "music/imgSongs/feel-love.jpg"
+        artist: "",
+        path: "",
+        cover: "",
     },
     {
         title: "",
-        artist: "Marvin Gaye",
-        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
-        cover: "music/imgSongs/feel-love.jpg"
+        artist: "",
+        path: "",
+        cover: "",
     },
     {
         title: "",
-        artist: "Marvin Gaye",
-        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
-        cover: "music/imgSongs/feel-love.jpg"
+        artist: "",
+        path: "",
+        cover: "",
     },
     {
         title: "",
-        artist: "Marvin Gaye",
-        path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
-        cover: "music/imgSongs/feel-love.jpg"
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
+    },
+    {
+        title: "",
+        artist: "",
+        path: "",
+        cover: "",
     },
 ];
 
@@ -542,6 +734,5 @@ volumeSlider.addEventListener('input', (e) => {
     audio.volume = e.target.value / 100;
 });
 
-// Cargar la primera canción al iniciar
 updatePlaylist();
 loadSong(0);
