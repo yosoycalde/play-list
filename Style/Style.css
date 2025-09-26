@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #510069, #05ecce);
+    background: linear-gradient(135deg, #66217a, #000000);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@ button:hover {
 }
 
 .progress {
-    background: #ff6b6b;
+    background: #ffffff;
     border-radius: 5px;
     height: 100%;
     width: 0%;
