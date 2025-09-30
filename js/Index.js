@@ -10,8 +10,133 @@ const volumeSlider = document.getElementById('volume');
 const songInfo = document.getElementById('song-info');
 const playlist = document.getElementById('playlist');
 
-// Lista predefinida de canciones
 const songs = [
+    {
+        title: "Reality Flow X",
+        artist: "Al2",
+        path: "music/Al2 El Aldeano - Reality Flow X(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "SIEMPRE SERE TU AMOR",
+        artist: "Al2",
+        path: "music/Al2 El Aldeano - SIEMPRE SERE TU AMOR (LETRA)(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "Al2",
+        artist: "Al2",
+        path: "music/Al2(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "Como En Una Cancion",
+        artist: "Al2",
+        path: "music/Al2 El Aldeano - Como en una Cancion (LETRA)(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "La Magia",
+        artist: "Al2",
+        path: "music/La Magia(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "A Veces",
+        artist: "Al2",
+        path: "music/A Veces(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "A Pesar de Todo",
+        artist: "Al2 El Aldeano",
+        path: "music/A Pesar de Todo (Feat. El B_ Gabylonia)(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "La vida",
+        artist: "Al2 El aldeano",
+        path: "music/La Vida(MP3_160K).mp3",
+        cover: "music/imgSongs/lavida.jpg",
+    },
+    {
+        title: "Poseido",
+        artist: "Al2 El Aldeano",
+        path: "music/12- Poseido - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Perranderos",
+        artist: "Al2 El Aldeano",
+        path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Lluvia De Adokines",
+        artist: "Al2 ",
+        path: "music/14- Lluvia De Adokines - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Letron James",
+        artist: "Al2 El Aldeano",
+        path: "music/7- Letron James - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Mas Alla",
+        artist: "Al2 El Aldeano",
+        path: "music/6- Mas Alla - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "A Mover El Cuello ",
+        artist: "Al2 El Aldeano",
+        path: "music/9- A Mover El Cuello - Al2 El Aldeano _ Dj Figu feat Jesuly (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Que Se Boten",
+        artist: "Al2 El Aldeano",
+        path: "music/4- Que Se Boten - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "No Me Inmteresa ",
+        artist: "Al2 El Aldeano",
+        path: "music/10- No Me Interesa - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Símbolo",
+        artist: "Al2 El Aldeano",
+        path: "music/11- Símbolo - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "8- A Mi ",
+        artist: "Al2 El Aldeano",
+        path: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Pintura",
+        artist: "Al2 El Aldeano",
+        path: "music/1- Pintura - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Yoh",
+        artist: "Al2 El Aldeano",
+        path: "music/3- Yoh - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Sangre",
+        artist: "Al2 El Aldeano",
+        path: "music/2- Sangre - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
     {
         title: "5- La La La",
         artist: "Al2 El Aldeano",
@@ -23,18 +148,6 @@ const songs = [
         artist: "Soda Stereo",
         path: "music/Soda Stereo - Fue (Official Audio)(MP3_160K).mp3",
         cover: "music/imgSongs/Soda Stereo - Fue (Official Audio)(MP3_160K).jpg"
-    },
-    {
-        title: "8- A Mi ",
-        artist: "Al2 El Aldeano",
-        path: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "Perranderos",
-        artist: "Al2 El Aldeano",
-        path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "Clint Eastwood",
@@ -67,8 +180,8 @@ const songs = [
         cover: "music/imgSongs/criminal.jpg"
     },
     {
-        title: "Soda Stereo",
-        artist: "Entre Caíbales",
+        title: "Entre Caíbales",
+        artist: "Soda Stereo",
         path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
         cover: "music/imgSongs/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
     },
@@ -205,22 +318,10 @@ const songs = [
         cover: "music/imgSongs/rolling.jpg"
     },
     {
-        title: "Pintura",
-        artist: "Al2 El Aldeano",
-        path: "music/1- Pintura - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
         title: "Knee deep ",
         artist: "Funkadelic",
         path: "music/[Not just] Knee deep Funkadelic(MP3_160K).mp3",
         cover: "music/imgSongs/deep.jpg"
-    },
-    {
-        title: "Sangre",
-        artist: "Al2 El Aldeano",
-        path: "music/2- Sangre - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "Sorner-Jet Lag",
@@ -235,12 +336,6 @@ const songs = [
         cover: "music/imgSongs/santagrifa.jpg"
     },
     {
-        title: "No Me Inmteresa ",
-        artist: "Al2 El Aldeano",
-        path: "music/10- No Me Interesa - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
         title: "Apaga El Cel",
         artist: "Doble Porcion",
         path: "music/8. Apaga el Cel - Doble Porción _ The Colombians Ft. ZetaZeta _ Deejohend(MP3_160K).mp3",
@@ -251,12 +346,6 @@ const songs = [
         artist: "Chystemc",
         path: "music/Adicto a Ti(MP3_160K).mp3",
         cover: "music/imgSongs/adicto.jpg"
-    },
-    {
-        title: "Símbolo",
-        artist: "Al2 El Aldeano",
-        path: "music/11- Símbolo - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "All Eyez On Me",
@@ -283,12 +372,6 @@ const songs = [
         cover: "music/imgSongs/2pac.jpg"
     },
     {
-        title: "Yoh",
-        artist: "Al2 El Aldeano",
-        path: "music/3- Yoh - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
         title: "Enyerbao",
         artist: "Doble porción",
         path: "music/3. Enyerbao - Doble Porción _ The Colombians(MP3_160K).mp3",
@@ -299,12 +382,6 @@ const songs = [
         artist: "Métricas frias",
         path: "music/3. Métricas Frías _ DeeJohend - Palabra de Honor Ft. SpreadLof(MP3_160K).mp3",
         cover: "music/imgSongs/palabrasdehonor.jpg"
-    },
-    {
-        title: "Que Se Boten",
-        artist: "Al2 El Aldeano",
-        path: "music/4- Que Se Boten - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "El 5 Letras",
@@ -319,34 +396,16 @@ const songs = [
         cover: "music/imgSongs/5-4.jpg"
     },
     {
-        title: "A Mover El Cuello ",
-        artist: "Al2 El Aldeano",
-        path: "music/9- A Mover El Cuello - Al2 El Aldeano _ Dj Figu feat Jesuly (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
         title: "Fooled Around And Fell In Love",
         artist: "Elvin Bishop",
         path: "music/5. Elvin Bishop - Fooled Around and Fell in Love(MP3_160K).mp3",
         cover: "music/imgSongs/feel-love.jpg"
     },
     {
-        title: "Mas Alla",
-        artist: "Al2 El Aldeano",
-        path: "music/6- Mas Alla - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
         title: "7 Years",
         artist: "Lukas Graham",
         path: "music/7 Years(MP3_160K).mp3",
         cover: "music/imgSongs/lukas.jpg"
-    },
-    {
-        title: "Letron James",
-        artist: "Al2 El Aldeano",
-        path: "music/7- Letron James - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "Colera",
@@ -373,19 +432,11 @@ const songs = [
         cover: "music/imgSongs/1010.jpg"
     },
     {
-        title: "Poseido",
-        artist: "Al2 El Aldeano",
-        path: "music/12- Poseido - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
         title: "Tammi Terrel",
         artist: "Marvin Gaye",
         path: "music/12. Marvin Gaye _ Tammi Terrell - Ain_t No Mountain High Enough(MP3_160K).mp3",
         cover: "music/imgSongs/feel-love.jpg"
     },
-
-
     {
         title: "Sueña En Grande",
         artist: "Big Stan",
@@ -397,12 +448,6 @@ const songs = [
         artist: "Guns And Roses",
         path: "music/14 Years(MP3_160K).mp3",
         cover: "music/imgSongs/14.jpg"
-    },
-    {
-        title: "Lluvia De Adokines",
-        artist: "Al2 ",
-        path: "music/14- Lluvia De Adokines - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
     },
     {
         title: "19-2000",
@@ -493,12 +538,6 @@ const songs = [
         artist: "yawar cru",
         path: "music/La vida es un slam (feat. Yawar Cru)(MP3_160K).mp3",
         cover: "music/imgSongs/slam.jpg",
-    },
-    {
-        title: "La vida",
-        artist: "Al2 El aldeano",
-        path: "music/La Vida(MP3_160K).mp3",
-        cover: "music/imgSongs/lavida.jpg",
     },
     {
         title: "La Zenaida",
@@ -819,18 +858,6 @@ const songs = [
         cover: "music/imgSongs/burn.jpg",
     },
     {
-        title: "A Pesar de Todo",
-        artist: "Al2 El Aldeano",
-        path: "music/A Pesar de Todo (Feat. El B_ Gabylonia)(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
-    },
-    {
-        title: "A Veces",
-        artist: "Al2",
-        path: "music/A Veces(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
-    },
-    {
         title: "Dancin",
         artist: "Aaron Smith",
         path: "music/Aaron Smith - Dancin (KRONO Remix) - Lyrics(MP3_160K).mp3",
@@ -889,12 +916,6 @@ const songs = [
         artist: "Café Quijano",
         path: "music/La Lola(MP3_160K).mp3",
         cover: "music/imgSongs/lola.jpg",
-    },
-    {
-        title: "La Magia",
-        artist: "Al2",
-        path: "music/La Magia(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
     },
     {
         title: "La Movida",
@@ -1057,30 +1078,6 @@ const songs = [
         artist: "Angeles Del Infierno",
         path: "music/Al otro lado del silencio(MP3_160K) (1).mp3",
         cover: "music/imgSongs/si.jpg",
-    },
-    {
-        title: "Como En Una Cancion",
-        artist: "Al2",
-        path: "music/Al2 El Aldeano - Como en una Cancion (LETRA)(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
-    },
-    {
-        title: "Reality Flow X",
-        artist: "Al2",
-        path: "music/Al2 El Aldeano - Reality Flow X(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
-    },
-    {
-        title: "SIEMPRE SERE TU AMOR",
-        artist: "Al2",
-        path: "music/Al2 El Aldeano - SIEMPRE SERE TU AMOR (LETRA)(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
-    },
-    {
-        title: "Al2",
-        artist: "Al2",
-        path: "music/Al2(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
     },
     {
         title: "Dicotomía",
