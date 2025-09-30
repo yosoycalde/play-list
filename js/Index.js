@@ -12,136 +12,100 @@ const playlist = document.getElementById('playlist');
 
 const songs = [
     {
-        title: "Reality Flow X",
-        artist: "Al2",
-        path: "music/Al2 El Aldeano - Reality Flow X(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "¿Quien No?",
+        artist: "AZ",
+        path: "music/¿Quién No_(MP3_160K).mp3",
+        cover: "music/imgSongs/Quien no.jpg"
     },
     {
-        title: "SIEMPRE SERE TU AMOR",
-        artist: "Al2",
-        path: "music/Al2 El Aldeano - SIEMPRE SERE TU AMOR (LETRA)(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "1999",
+        artist: "AZ",
+        path: "music/1999(MP3_160K).mp3",
+        cover: "music/imgSongs/1999.jpg",
     },
     {
-        title: "Al2",
-        artist: "Al2",
-        path: "music/Al2(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "La revancha de los timidos",
+        artist: "AZ",
+        path: "music/La Revancha de los Timidos(MP3_160K).mp3",
+        cover: "music/imgSongs/1999.jpg",
     },
     {
-        title: "Como En Una Cancion",
-        artist: "Al2",
-        path: "music/Al2 El Aldeano - Como en una Cancion (LETRA)(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "La Tipica",
+        artist: "AZ",
+        path: "music/La Típica(MP3_160K).mp3",
+        cover: "music/imgSongs/tipica.jpg",
     },
     {
-        title: "La Magia",
-        artist: "Al2",
-        path: "music/La Magia(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "Anarcolirykoz",
+        artist: "AZ",
+        path: "music/AnarcolirykoZ (Álbum completo)(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "A Veces",
-        artist: "Al2",
-        path: "music/A Veces(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "Anestesia Local - Episodio 1",
+        artist: "AZ",
+        path: "music/Anestesia Local - Episodio 1(MP3_160K).mp3",
+        cover: "music/imgSongs/ep1.jpg",
     },
     {
-        title: "A Pesar de Todo",
-        artist: "Al2 El Aldeano",
-        path: "music/A Pesar de Todo (Feat. El B_ Gabylonia)(MP3_160K).mp3",
-        cover: "music/imgSongs/al.jpg",
+        title: "Anestesia Local - Episodio 2",
+        artist: "AZ",
+        path: "music/Anestesia Local - Episodio 2(MP3_160K).mp3",
+        cover: "music/imgSongs/ep1.jpg",
     },
     {
-        title: "La vida",
-        artist: "Al2 El aldeano",
-        path: "music/La Vida(MP3_160K).mp3",
-        cover: "music/imgSongs/lavida.jpg",
+        title: "Antes del Meridiano",
+        artist: "AZ",
+        path: "music/Antes del Meridiano(MP3_160K).mp3",
+        cover: "music/imgSongs/ep1.jpg",
     },
     {
-        title: "Poseido",
-        artist: "Al2 El Aldeano",
-        path: "music/12- Poseido - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "La Penúltima Cena",
+        artist: "AZ",
+        path: "music/La Penúltima Cena(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "Perranderos",
-        artist: "Al2 El Aldeano",
-        path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "La Pesca",
+        artist: "Arkeologo",
+        path: "music/La Pesca(MP3_160K).mp3",
+        cover: "music/imgSongs/pe.jpg",
     },
     {
-        title: "Lluvia De Adokines",
-        artist: "Al2 ",
-        path: "music/14- Lluvia De Adokines - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "Dicotomía",
+        artist: "AZ",
+        path: "music/AlcolirykoZ - Dicotomía (Prod. El Arkeólogo)(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "Letron James",
-        artist: "Al2 El Aldeano",
-        path: "music/7- Letron James - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "Misa de sanazión",
+        artist: "AZ",
+        path: "music/Alcolirykoz - Misa de sanazión (Con Tito Agudelo) Prod. El Arkeólogo(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "Mas Alla",
-        artist: "Al2 El Aldeano",
-        path: "music/6- Mas Alla - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "Normal",
+        artist: "AZ",
+        path: "music/AlcolirykoZ - Normal (Prod. El Arkeólogo)(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "A Mover El Cuello ",
-        artist: "Al2 El Aldeano",
-        path: "music/9- A Mover El Cuello - Al2 El Aldeano _ Dj Figu feat Jesuly (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "Sancocho En Leña",
+        artist: "AZ",
+        path: "music/Alcolirykoz - Sancocho en Leña (Prod. El Arkeólogo)(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "Que Se Boten",
-        artist: "Al2 El Aldeano",
-        path: "music/4- Que Se Boten - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "Otra canción larga",
+        artist: "AZ",
+        path: "music/Alcolirykoz  -Otra canción larga- Letra(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
-        title: "No Me Inmteresa ",
-        artist: "Al2 El Aldeano",
-        path: "music/10- No Me Interesa - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "Símbolo",
-        artist: "Al2 El Aldeano",
-        path: "music/11- Símbolo - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "8- A Mi ",
-        artist: "Al2 El Aldeano",
-        path: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "Pintura",
-        artist: "Al2 El Aldeano",
-        path: "music/1- Pintura - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "Yoh",
-        artist: "Al2 El Aldeano",
-        path: "music/3- Yoh - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "Sangre",
-        artist: "Al2 El Aldeano",
-        path: "music/2- Sangre - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
-    },
-    {
-        title: "5- La La La",
-        artist: "Al2 El Aldeano",
-        path: "music/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+        title: "El Tour de Sing Sing",
+        artist: "Alcolirykoz y Tote King",
+        path: "music/Alcolirykoz y Tote King - El Tour de Sing Sing (Prod. El Arkeólogo)(MP3_160K).mp3",
+        cover: "music/imgSongs/anar.jpg",
     },
     {
         title: "Fue",
@@ -149,6 +113,151 @@ const songs = [
         path: "music/Soda Stereo - Fue (Official Audio)(MP3_160K).mp3",
         cover: "music/imgSongs/Soda Stereo - Fue (Official Audio)(MP3_160K).jpg"
     },
+    {
+        title: "Entre Caíbales",
+        artist: "Soda Stereo",
+        path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
+        cover: "music/imgSongs/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
+    },
+    {
+        title: "Adios",
+        artist: "Gustavo Cerati",
+        path: "music/Adiós(MP3_160K).mp3",
+        cover: "music/imgSongs/ce.jpg",
+    },
+    {
+        title: "Amor Amarillo",
+        artist: "Cerati",
+        path: "music/Amor Amarillo(MP3_160K).mp3",
+        cover: "music/imgSongs/ne.jpg",
+    },
+    {
+        title: "In Pieces",
+        artist: "Linkin Park",
+        path: "music/In Pieces - Linkin Park (Minutes To Midnight)(MP3_160K).mp3",
+        cover: "music/imgSongs/fi.jpg",
+    },
+    {
+        title: "In The End",
+        artist: "Linkin park",
+        path: "music/In the End(MP3_160K).mp3",
+        cover: "music/imgSongs/burn.jpg",
+    },
+    {
+        title: "One Step Closer",
+        artist: " Linkin Park",
+        path: "music/One Step Closer [Official HD Music Video] - Linkin Park(MP3_160K).mp3",
+        cover: "music/imgSongs/livi.jpg",
+    },
+    {
+        title: "Numb",
+        artist: "Linkin Park",
+        path: "music/Numb (Live) - Linkin Park(MP3_160K).mp3",
+        cover: "music/imgSongs/num.jpg",
+    },
+    {
+        title: "shadow of the day with what ive done together",
+        artist: "Linkin Park",
+        path: "music/linkin park shadow of the day with what ive done together(MP3_160K).mp3",
+        cover: "music/imgSongs/linki.jpg",
+    },
+    {
+        title: "Lying From You",
+        artist: "Linkin Park",
+        path: "music/Lying From You - Linkin Park (Meteora)(MP3_160K).mp3",
+        cover: "music/imgSongs/livi.jpg",
+    },
+    {
+        title: "Burn It Down",
+        artist: "Linkin Park",
+        path: "music/Linkin Park - Burn It Down [Sub. Español](MP3_160K).mp3",
+        cover: "music/imgSongs/burn.jpg",
+    },
+    {
+        title: "Castle Of Glass",
+        artist: "Linkin Park",
+        path: "music/Linkin Park - Castle Of Glass (Audio HD)(MP3_160K).mp3",
+        cover: "music/imgSongs/glass.jpg",
+    },
+    {
+        title: "Fighting Myself",
+        artist: "Linkin Park",
+        path: "music/Linkin Park - Fighting Myself (Official Audio)(MP3_160K).mp3",
+        cover: "music/imgSongs/fi.jpg",
+    },
+    {
+        title: " Papercut Extended",
+        artist: "Linkin Park",
+        path: "music/Linkin Park - Papercut Extended Remix(MP3_160K).mp3",
+        cover: "music/imgSongs/paper.jpg",
+    },
+    {
+        title: "What I ve Done",
+        artist: "Linkin Park",
+        path: "music/Linkin Park - What I_ve Done __ Sub. Español(MP3_160K).mp3",
+        cover: "music/imgSongs/paper.jpg",
+    },
+    {
+        title: "Damage",
+        artist: "Linkin Park, Slipknot, Eminem",
+        path: "music/Linkin Park _ Slipknot _ Eminem - Damage [OFFICIAL MUSIC VIDEO] [FULL-HD] [MASHUP](MP3_160K).mp3",
+        cover: "music/imgSongs/emm.jpg",
+    },
+    {
+        title: "La Intuición",
+        artist: "Penyair",
+        path: "music/La Intuición(MP3_160K).mp3",
+        cover: "music/imgSongs/nosabia.jpg",
+    },
+    {
+        title: "Borregos",
+        artist: "Penyair",
+        path: "music/Penyair - Borregos ft hidden 351 x _djspizike5996 (visualizer)(MP3_160K).mp3",
+        cover: "music/imgSongs/borr.jpg",
+    },
+    {
+        title: "Ma",
+        artist: "Penyair",
+        path: "music/Penyair - Ma ft  _CokoYamasaki229 (Visualizer)(MP3_160K).mp3",
+        cover: "music/imgSongs/ma.jpg",
+    },
+    {
+        title: " A Mi",
+        artist: "Penyair",
+        path: "music/Penyair - A mi x _EddyMugre (visualizer)(MP3_160K).mp3",
+        cover: "music/imgSongs/ami.jpg",
+    },
+    {
+        title: "Agoniaz",
+        artist: "Penyair",
+        path: "music/Penyair - Agoniaz ft Manny ___ (video oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/ago.jpg",
+    },
+    {
+        title: "4EVA",
+        artist: "Oblivion s Mighty Trash, PenyairOficial",
+        path: "music/Oblivion_s Mighty Trash _ _PenyairOficial  - 4EVA (prod. Diavlitx _ Barbatos) (Video Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/4.jpg",
+    }, {
+        title: "Muerte",
+        artist: "Penyair",
+        path: "music/Penyair - Muerte 💀 (Video Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/muerte.jpg",
+    },
+    {
+        title: "No Sabia Que Sabia",
+        artist: "Penyair, Mañas",
+        path: "music/Penyair - No sabia que sabia ft Mañas Ru-Fino prod. Juan Sinatra (video oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/nosabia.jpg",
+    },
+    {
+        title: "La Segunda Vez",
+        artist: "Penyair",
+        path: "music/La Segunda Vez(MP3_160K).mp3",
+        cover: "music/imgSongs/segunda.jpg",
+    },
+
+
     {
         title: "Clint Eastwood",
         artist: "Gorillaz",
@@ -178,12 +287,6 @@ const songs = [
         artist: "Alien Ant Farm",
         path: "music/Smooth Criminal(MP3_160K).mp3",
         cover: "music/imgSongs/criminal.jpg"
-    },
-    {
-        title: "Entre Caíbales",
-        artist: "Soda Stereo",
-        path: "music/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).mp3",
-        cover: "music/imgSongs/Soda Stereo - Entre Caníbales (Official Visualizer)(MP3_160K).jpg"
     },
     {
         title: "La Vuelta Al Mundo",
@@ -292,12 +395,6 @@ const songs = [
         artist: "Rawayana",
         path: "music/_Sádico (Sunsplash _ Ferraz Remix)(MP3_160K).mp3",
         cover: "music/imgSongs/sadico.jpg"
-    },
-    {
-        title: "¿Quien No?",
-        artist: "AZ",
-        path: "music/¿Quién No_(MP3_160K).mp3",
-        cover: "music/imgSongs/Quien no.jpg"
     },
     {
         title: "¿Quienes Sois?",
@@ -497,36 +594,15 @@ const songs = [
         path: "music/505(MP3_160K).mp3",
         cover: "music/imgSongs/505.jpg",
     },
-    {
-        title: "1999",
-        artist: "AZ",
-        path: "music/1999(MP3_160K).mp3",
-        cover: "music/imgSongs/1999.jpg",
-    },
-    {
-        title: "La revancha de los timidos",
-        artist: "AZ",
-        path: "music/La Revancha de los Timidos(MP3_160K).mp3",
-        cover: "music/imgSongs/1999.jpg",
-    },
-    {
-        title: "La Segunda Vez",
-        artist: "Penyair",
-        path: "music/La Segunda Vez(MP3_160K).mp3",
-        cover: "music/imgSongs/segunda.jpg",
-    },
+
+
     {
         title: "La Sentada",
         artist: "La muchacha",
         path: "music/La Sentada(MP3_160K).mp3",
         cover: "music/imgSongs/sentada.jpg",
     },
-    {
-        title: "La Tipica",
-        artist: "AZ",
-        path: "music/La Típica(MP3_160K).mp3",
-        cover: "music/imgSongs/tipica.jpg",
-    },
+
     {
         title: "La Vacuna",
         artist: "Orishas",
@@ -551,24 +627,8 @@ const songs = [
         path: "music/Labios Compartidos(MP3_160K).mp3",
         cover: "music/imgSongs/compartidos.jpg",
     },
-    {
-        title: "Anarcolirykoz",
-        artist: "AZ",
-        path: "music/AnarcolirykoZ (Álbum completo)(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
-        title: "Muerte",
-        artist: "Penyair",
-        path: "music/Penyair - Muerte 💀 (Video Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/muerte.jpg",
-    },
-    {
-        title: "No Sabia Que Sabia",
-        artist: "Penyair, Mañas",
-        path: "music/Penyair - No sabia que sabia ft Mañas Ru-Fino prod. Juan Sinatra (video oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/nosabia.jpg",
-    },
+
+
     {
         title: "Anarquia En Medellin",
         artist: "Oblivion's Mighty Trash",
@@ -611,54 +671,8 @@ const songs = [
         path: "music/Labios Rotos (En Vivo Desde México _ 2010)(MP3_160K).mp3",
         cover: "music/imgSongs/rotos.jpg",
     },
-    {
-        title: "Burn It Down",
-        artist: "Linkin Park",
-        path: "music/Linkin Park - Burn It Down [Sub. Español](MP3_160K).mp3",
-        cover: "music/imgSongs/burn.jpg",
-    },
-    {
-        title: "Castle Of Glass",
-        artist: "Linkin Park",
-        path: "music/Linkin Park - Castle Of Glass (Audio HD)(MP3_160K).mp3",
-        cover: "music/imgSongs/glass.jpg",
-    },
-    {
-        title: "Fighting Myself",
-        artist: "Linkin Park",
-        path: "music/Linkin Park - Fighting Myself (Official Audio)(MP3_160K).mp3",
-        cover: "music/imgSongs/fi.jpg",
-    },
-    {
-        title: " Papercut Extended",
-        artist: "Linkin Park",
-        path: "music/Linkin Park - Papercut Extended Remix(MP3_160K).mp3",
-        cover: "music/imgSongs/paper.jpg",
-    },
-    {
-        title: "What I ve Done",
-        artist: "Linkin Park",
-        path: "music/Linkin Park - What I_ve Done __ Sub. Español(MP3_160K).mp3",
-        cover: "music/imgSongs/paper.jpg",
-    },
-    {
-        title: "Damage",
-        artist: "Linkin Park, Slipknot, Eminem",
-        path: "music/Linkin Park _ Slipknot _ Eminem - Damage [OFFICIAL MUSIC VIDEO] [FULL-HD] [MASHUP](MP3_160K).mp3",
-        cover: "music/imgSongs/emm.jpg",
-    },
-    {
-        title: "shadow of the day with what ive done together",
-        artist: "Linkin Park",
-        path: "music/linkin park shadow of the day with what ive done together(MP3_160K).mp3",
-        cover: "music/imgSongs/linki.jpg",
-    },
-    {
-        title: "Lying From You",
-        artist: "Linkin Park",
-        path: "music/Lying From You - Linkin Park (Meteora)(MP3_160K).mp3",
-        cover: "music/imgSongs/livi.jpg",
-    },
+
+
     {
         title: "Tierra de Nadie",
         artist: "Mañas Ru-Fino",
@@ -671,24 +685,8 @@ const songs = [
         path: "music/Medio Muerto - Mañas Ru-Fino (Prod. Ru-Fino _ DeeJohend) Vértigo 2024(MP3_160K).mp3",
         cover: "music/imgSongs/nadie.jpg",
     },
-    {
-        title: "Numb",
-        artist: "Linkin Park",
-        path: "music/Numb (Live) - Linkin Park(MP3_160K).mp3",
-        cover: "music/imgSongs/num.jpg",
-    },
-    {
-        title: "4EVA",
-        artist: "Oblivion s Mighty Trash, PenyairOficial",
-        path: "music/Oblivion_s Mighty Trash _ _PenyairOficial  - 4EVA (prod. Diavlitx _ Barbatos) (Video Oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/4.jpg",
-    },
-    {
-        title: "One Step Closer",
-        artist: " Linkin Park",
-        path: "music/One Step Closer [Official HD Music Video] - Linkin Park(MP3_160K).mp3",
-        cover: "music/imgSongs/livi.jpg",
-    },
+
+
     {
         title: "300 Kilos",
         artist: "Orishas",
@@ -720,42 +718,6 @@ const songs = [
         cover: "music/imgSongs/537.jpg",
     },
     {
-        title: " A Mi",
-        artist: "Penyair",
-        path: "music/Penyair - A mi x _EddyMugre (visualizer)(MP3_160K).mp3",
-        cover: "music/imgSongs/ami.jpg",
-    },
-    {
-        title: "Agoniaz",
-        artist: "Penyair",
-        path: "music/Penyair - Agoniaz ft Manny ___ (video oficial)(MP3_160K).mp3",
-        cover: "music/imgSongs/ago.jpg",
-    },
-    {
-        title: "Borregos",
-        artist: "Penyair",
-        path: "music/Penyair - Borregos ft hidden 351 x _djspizike5996 (visualizer)(MP3_160K).mp3",
-        cover: "music/imgSongs/borr.jpg",
-    },
-    {
-        title: "Ma",
-        artist: "Penyair",
-        path: "music/Penyair - Ma ft  _CokoYamasaki229 (Visualizer)(MP3_160K).mp3",
-        cover: "music/imgSongs/ma.jpg",
-    },
-    {
-        title: "Anestesia Local - Episodio 1",
-        artist: "AZ",
-        path: "music/Anestesia Local - Episodio 1(MP3_160K).mp3",
-        cover: "music/imgSongs/ep1.jpg",
-    },
-    {
-        title: "Anestesia Local - Episodio 2",
-        artist: "AZ",
-        path: "music/Anestesia Local - Episodio 2(MP3_160K).mp3",
-        cover: "music/imgSongs/ep1.jpg",
-    },
-    {
         title: "Angel de la Guarda",
         artist: " Warrior Rapper School",
         path: "music/Angel de la Guarda(MP3_160K).mp3",
@@ -784,12 +746,6 @@ const songs = [
         artist: "Gigi D'Agostino",
         path: "music/Another Way(MP3_160K).mp3",
         cover: "music/imgSongs/anot.jpg",
-    },
-    {
-        title: "Antes del Meridiano",
-        artist: "AZ",
-        path: "music/Antes del Meridiano(MP3_160K).mp3",
-        cover: "music/imgSongs/ep1.jpg",
     },
     {
         title: "Anything Goes",
@@ -846,18 +802,6 @@ const songs = [
         cover: "music/imgSongs/de.jpg",
     },
     {
-        title: "In Pieces",
-        artist: "Linkin Park",
-        path: "music/In Pieces - Linkin Park (Minutes To Midnight)(MP3_160K).mp3",
-        cover: "music/imgSongs/fi.jpg",
-    },
-    {
-        title: "In The End",
-        artist: "Linkin park",
-        path: "music/In the End(MP3_160K).mp3",
-        cover: "music/imgSongs/burn.jpg",
-    },
-    {
         title: "Dancin",
         artist: "Aaron Smith",
         path: "music/Aaron Smith - Dancin (KRONO Remix) - Lyrics(MP3_160K).mp3",
@@ -900,12 +844,6 @@ const songs = [
         cover: "music/imgSongs/gui.jpg",
     },
     {
-        title: "La Intuición",
-        artist: "Penyair",
-        path: "music/La Intuición(MP3_160K).mp3",
-        cover: "music/imgSongs/nosabia.jpg",
-    },
-    {
         title: "LA LA LA",
         artist: "Love You Like",
         path: "music/LA LA LA (Love You Like)(MP3_160K).mp3",
@@ -942,22 +880,10 @@ const songs = [
         cover: "music/imgSongs",
     },
     {
-        title: "La Penúltima Cena",
-        artist: "AZ",
-        path: "music/La Penúltima Cena(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
         title: "La Perla",
         artist: "Calle 13",
         path: "music/La Perla(MP3_160K).mp3",
         cover: "music/imgSongs/cal.jpg",
-    },
-    {
-        title: "La Pesca",
-        artist: "Arkeologo",
-        path: "music/La Pesca(MP3_160K).mp3",
-        cover: "music/imgSongs/pe.jpg",
     },
     {
         title: "La pistola",
@@ -976,12 +902,6 @@ const songs = [
         artist: "Santa Grifa",
         path: "music/LA SANTA GRIFA __ TOCAME __ FUERA DE ORBITA (AUDIO)(MP3_160K).mp3",
         cover: "music/imgSongs/sa.jpg",
-    },
-    {
-        title: "Adios",
-        artist: "Gustavo Cerati",
-        path: "music/Adiós(MP3_160K).mp3",
-        cover: "music/imgSongs/ce.jpg",
     },
     {
         title: "Virgen",
@@ -1056,6 +976,138 @@ const songs = [
         cover: "music/imgSongs/mo.jpg",
     },
     {
+        title: "Reality Flow X",
+        artist: "Al2",
+        path: "music/Al2 El Aldeano - Reality Flow X(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "SIEMPRE SERE TU AMOR",
+        artist: "Al2",
+        path: "music/Al2 El Aldeano - SIEMPRE SERE TU AMOR (LETRA)(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "Al2",
+        artist: "Al2",
+        path: "music/Al2(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "Como En Una Cancion",
+        artist: "Al2",
+        path: "music/Al2 El Aldeano - Como en una Cancion (LETRA)(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "La Magia",
+        artist: "Al2",
+        path: "music/La Magia(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "A Veces",
+        artist: "Al2",
+        path: "music/A Veces(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "A Pesar de Todo",
+        artist: "Al2 El Aldeano",
+        path: "music/A Pesar de Todo (Feat. El B_ Gabylonia)(MP3_160K).mp3",
+        cover: "music/imgSongs/al.jpg",
+    },
+    {
+        title: "La vida",
+        artist: "Al2 El aldeano",
+        path: "music/La Vida(MP3_160K).mp3",
+        cover: "music/imgSongs/lavida.jpg",
+    },
+    {
+        title: "Poseido",
+        artist: "Al2 El Aldeano",
+        path: "music/12- Poseido - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Perranderos",
+        artist: "Al2 El Aldeano",
+        path: "music/13- Perranderos - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Lluvia De Adokines",
+        artist: "Al2 ",
+        path: "music/14- Lluvia De Adokines - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Letron James",
+        artist: "Al2 El Aldeano",
+        path: "music/7- Letron James - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Mas Alla",
+        artist: "Al2 El Aldeano",
+        path: "music/6- Mas Alla - Al2 El Aldeano _ Dj Figu _ Raymond Daniel (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "A Mover El Cuello ",
+        artist: "Al2 El Aldeano",
+        path: "music/9- A Mover El Cuello - Al2 El Aldeano _ Dj Figu feat Jesuly (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Que Se Boten",
+        artist: "Al2 El Aldeano",
+        path: "music/4- Que Se Boten - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "No Me Inmteresa ",
+        artist: "Al2 El Aldeano",
+        path: "music/10- No Me Interesa - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Símbolo",
+        artist: "Al2 El Aldeano",
+        path: "music/11- Símbolo - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "8- A Mi ",
+        artist: "Al2 El Aldeano",
+        path: "music/8- A Mi - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Pintura",
+        artist: "Al2 El Aldeano",
+        path: "music/1- Pintura - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Yoh",
+        artist: "Al2 El Aldeano",
+        path: "music/3- Yoh - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "Sangre",
+        artist: "Al2 El Aldeano",
+        path: "music/2- Sangre - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
+        title: "5- La La La",
+        artist: "Al2 El Aldeano",
+        path: "music/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).mp3",
+        cover: "music/imgSongs/5- La La La - Al2 El Aldeano _ Dj Figu (Audio Oficial)(MP3_160K).jpg"
+    },
+    {
         title: "Agüita De Coco",
         artist: "Los Fantasmas del Caribe",
         path: "music/Agüita _e Coco(MP3_160K).mp3",
@@ -1078,42 +1130,6 @@ const songs = [
         artist: "Angeles Del Infierno",
         path: "music/Al otro lado del silencio(MP3_160K) (1).mp3",
         cover: "music/imgSongs/si.jpg",
-    },
-    {
-        title: "Dicotomía",
-        artist: "AZ",
-        path: "music/AlcolirykoZ - Dicotomía (Prod. El Arkeólogo)(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
-        title: "Misa de sanazión",
-        artist: "AZ",
-        path: "music/Alcolirykoz - Misa de sanazión (Con Tito Agudelo) Prod. El Arkeólogo(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
-        title: "Normal",
-        artist: "AZ",
-        path: "music/AlcolirykoZ - Normal (Prod. El Arkeólogo)(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
-        title: "Sancocho En Leña",
-        artist: "AZ",
-        path: "music/Alcolirykoz - Sancocho en Leña (Prod. El Arkeólogo)(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
-        title: "Otra canción larga",
-        artist: "AZ",
-        path: "music/Alcolirykoz  -Otra canción larga- Letra(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
-    },
-    {
-        title: "El Tour de Sing Sing",
-        artist: "Alcolirykoz y Tote King",
-        path: "music/Alcolirykoz y Tote King - El Tour de Sing Sing (Prod. El Arkeólogo)(MP3_160K).mp3",
-        cover: "music/imgSongs/anar.jpg",
     },
     {
         title: "Categoría 5",
@@ -1277,12 +1293,7 @@ const songs = [
         path: "music/Amerika(MP3_160K).mp3",
         cover: "music/imgSongs/ame.jpg",
     },
-    {
-        title: "Amor Amarillo",
-        artist: "Cerati",
-        path: "music/Amor Amarillo(MP3_160K).mp3",
-        cover: "music/imgSongs/ne.jpg",
-    },
+
     {
         title: "Amor Daltonico",
         artist: "Gona",
